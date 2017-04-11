@@ -70,11 +70,11 @@ Slider
 }
 .cd-slider > li:nth-of-type(3) {
   background-color: #7d7160;
-  background-image: url(../img/mime-bw.jpg);
+  background-image: url(../img/fondo-modal-1.jpg);
 }
 .cd-slider > li:nth-of-type(4) {
   background-color: #ff625a;
-  background-image: url(../img/bicicleta.jpg);
+  background-image: url(../img/abstract-fondo-web.jpg);
 }
 .cd-slider > li:first-of-type, .cd-slider > li:nth-of-type(2), .cd-slider > li:nth-of-type(3), .cd-slider > li:nth-of-type(4) {
   background-size: cover;
@@ -118,6 +118,7 @@ Slider
 }
 .no-touch .cd-slider > li .cd-btn:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  color:#fff;
 }
 @media only screen and (min-width: 768px) {
   .cd-slider > li h2, .cd-slider > li p {
