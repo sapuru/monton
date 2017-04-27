@@ -13,9 +13,10 @@ html {
 
 body {
   font-size: 1.6rem;
-  font-family: "Jaldi", sans-serif;
-  color: #4a3553;
-  background-color: #ffffff;
+  font-family: "Arsenal", sans-serif;
+  font-weight:400;
+  color: #fff;
+  background-color: #3c3c3c;
 }
 
 a {
@@ -23,6 +24,9 @@ a {
   text-decoration: none;
 }
 
+strong {
+  font-weight:bold;
+}
 /* --------------------------------
 
 Slider
@@ -306,7 +310,7 @@ svg cover layer
   opacity: 0;
 }
 .cd-svg-cover path {
-  fill: #3d3d3d;
+  fill: #f5f0eb;
 }
 .cd-svg-cover.is-animating {
   z-index: 4;
@@ -423,7 +427,8 @@ Modal window
     width: 60px;
   }
   .cd-modal p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-style: italic;
   }
 }
 
@@ -529,7 +534,8 @@ Modal window
     width: 60px;
   }
   .cd-modal-2 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-style: italic;
   }
 }
 
@@ -635,7 +641,8 @@ Modal window
     width: 60px;
   }
   .cd-modal-3 p {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-style: italic;
   }
 }
 /* --------------------------------
@@ -800,4 +807,10 @@ Transition Layer
     .fullscreen-bg__video {
         display: none;
     }
+}
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #701215;
+    border-color: #701215;
 }
